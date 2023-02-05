@@ -380,6 +380,14 @@ gap: 16px;
         letter-spacing: 0.04em;
         color: #FFFFFF;
         cursor: pointer;
+
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .btn-subscribe:hover, .btn-subscribe:focus{
+        background-color: #404BBF;
     }
 
     .btn-subscribe::after{
@@ -1078,4 +1086,12 @@ background-repeat: no-repeat;
         letter-spacing: 0.04em;
         color: #FFFFFF;
         cursor: pointer;
+
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .btn-send:is(:hover, ;focus){
+    background-color: #404BBF;  
     }
