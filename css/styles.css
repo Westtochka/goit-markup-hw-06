@@ -1054,3 +1054,28 @@ background-image: url(../images/icons/Vector.svg);
 background-position: center;
 background-repeat: no-repeat;
 }
+
+.privacy-policy{
+    margin-left: 1px;}
+
+.btn-send{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;    
+    
+        width: 169px;
+        min-height: 56px;
+        background-color: #4D5AE5;
+        border-radius: 4px;
+        border: none;
+
+        font-family: var(--primary-font);       
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
