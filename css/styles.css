@@ -945,7 +945,19 @@ height: 40px;
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 24px;
+    fill: #000000;
+
+    transition-property: fill  background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
+.modal-close:hover, .modal-close:hover:focus{
+fill: #ffff;
+background-color: #404BBF;
+}
+
 
 .modal-title{
     font-family: var(--primary-font);
@@ -960,7 +972,7 @@ height: 40px;
 }
 
 .modal-form{
-
+color:#FCFCFC;
 }
 
 .modal-input{
@@ -971,6 +983,7 @@ height: 40px;
     outline: transparent;
     font-size: 12px;
     padding-left: 38px;
+    background-color: #FCFCFC;
     
     }
     .modal-input:focus, .modal-comment:focus {
@@ -987,6 +1000,7 @@ height: 40px;
     line-height: 1.33;
     letter-spacing: 0.04em;
     color: #8E8F99;
+    background-color: #FCFCFC;;
     display: inline-block;
     margin-bottom: 4px;
   
@@ -999,6 +1013,7 @@ position: absolute;
 left: 16px;
 top: 50%;
 transform: translateY(-50%);
+
 
 }
 .modal-field{
@@ -1024,6 +1039,7 @@ position: relative;
     line-height: 1.33;
     letter-spacing: 0.04em;
     resize: none;
+    background-color: #FCFCFC;
 
 }
 
@@ -1064,7 +1080,8 @@ background-repeat: no-repeat;
 }
 
 .privacy-policy{
-    margin-left: 1px;}
+    margin-left: 1px;
+color:#4D5AE5;}
 
 .btn-send{
     margin-top: 24px;
@@ -1094,4 +1111,4 @@ background-repeat: no-repeat;
 
     .btn-send:is(:hover, ;focus){
     background-color: #404BBF;  
-    }
+    } 
